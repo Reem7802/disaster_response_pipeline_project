@@ -6,4 +6,4 @@ Libraries used:
 
 The following python libraries were used in this project.
 
--json -
+*json
