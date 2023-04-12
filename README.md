@@ -34,7 +34,7 @@ train_classifier.py
 classifier.pkl: trained model
 run.py
 templates
-averag acc.png: picture shows model acc
+
 
 .
 
