@@ -27,12 +27,19 @@ For this project, i Built a machine learning pipeline to categorize  events so t
 # File Description:
 
 process_data.py
+
 disaster_categories.csv: message categories dataset
+
 disaster_messages.csv: messages dataset
+
 DisasterResponse.db: cleaned db to train the model
+
 train_classifier.py 
+
 classifier.pkl: trained model
+
 run.py
+
 templates
 
 
