@@ -13,7 +13,19 @@ json, plotly, pandas, joblib, re, nltk, flask, sqlalchemy, sys, pickle, sklearn
 
 # Running the code:
 
-From the project folder run run.py to start the dash application
+- To create a processed sqlite db
+
+python process_data.py disaster_messages.csv disaster_categories.csv DisasterResponse.db
+
+- To train and save a pkl model
+
+python train_classifier.py ../data/DisasterResponse.db classifier.pkl
+
+- To deploy the application locally
+
+python run.py
+
+
 
 .
 
