@@ -6,7 +6,8 @@ this repository show you a machine learning pipeline to categorize events.
 
 # Libraries used:
 
-The following python libraries were used in this project.
+The following python libraries were used in this project:
+
 json, plotly, pandas, joblib, re, nltk, flask, sqlalchemy, sys, pickle, sklearn
 
 .
