@@ -26,21 +26,21 @@ For this project, i Built a machine learning pipeline to categorize  events so t
 
 # File Description:
 
-process_data.py
 
-disaster_categories.csv: message categories dataset
-
-disaster_messages.csv: messages dataset
-
-DisasterResponse.db: cleaned db to train the model
-
-train_classifier.py 
-
-classifier.pkl: trained model
-
-run.py
-
-templates
+app
+| - template
+| |- master.html # main page of web app
+| |- go.html # classification result page of web app
+|- run.py # Flask file that runs app
+data
+|- disaster_categories.csv # data to process
+|- disaster_messages.csv # data to process
+|- process_data.py
+|- InsertDatabaseName.db # database to save clean data to
+models
+|- train_classifier.py
+|- classifier.pkl # saved model
+README.md
 
 
 .
